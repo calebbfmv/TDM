@@ -1,0 +1,10 @@
+name: CraftTDM
+main: net.craftgasm.TDM
+version: ${project.version}
+author: calebbfmv
+commands:
+  tdm:
+  join:
+  leave:
+  create:
+  spectate:

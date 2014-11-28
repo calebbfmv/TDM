@@ -11,8 +11,8 @@ import redis.clients.jedis.Jedis;
  */
 public class JedisManager {
 
+	public static String CHANNEL = "TDM";
 	private Jedis jedis;
-	public static String CHANNEL = "NationsCSC";
 
 	public JedisManager(FileConfiguration config) {
 		String host = config.getString("host");

@@ -1,0 +1,6 @@
+kits:
+  Beginner:
+    slots:
+      '0':
+        item: WOODEN_SWORD
+        name: '$teamColor$Wood

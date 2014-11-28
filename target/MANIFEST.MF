@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Implementation-Version: 1.0.0.banana
+Built-By: TDA
+Implementation-Vendor-Id: net.craftgasm
+Created-By: IntelliJ IDEA
+Build-Jdk: 1.8.0_20
+Specification-Version: 1.0.0.banana
+

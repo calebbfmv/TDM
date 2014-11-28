@@ -1,6 +1,6 @@
 name: CraftTDM
 main: TDM
-version: ${project.version}
+version: 1.0.0.banana
 author: calebbfmv
 commands:
   tdm:

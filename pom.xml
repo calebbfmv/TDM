@@ -29,9 +29,28 @@
             <version>1.7.10-R0.1-SNAPSHOT</version>
         </dependency>
         <dependency>
+            <groupId>org.spigotmc</groupId>
+            <artifactId>spigot</artifactId>
+            <version>1649_Patch20141001a</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
             <groupId>net.milkbowl.vault</groupId>
             <artifactId>VaultAPI</artifactId>
             <version>LATEST</version>
+        </dependency>
+        <dependency>
+            <groupId>org.nationsmc</groupId>
+            <artifactId>ItemUtils</artifactId>
+            <version>1.0.0.banana</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/libs/ItemUtilities.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>redis.clients</groupId>
+            <artifactId>jedis</artifactId>
+            <version>2.6.0</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
     <build>
@@ -51,8 +70,8 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.0</version>
                 <configuration>
-                    <source>1.7</source>
-                    <target>1.7</target>
+                    <source>1.8</source>
+                    <target>1.8</target>
                 </configuration>
             </plugin>
             <plugin>

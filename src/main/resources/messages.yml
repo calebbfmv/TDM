@@ -1,0 +1,4 @@
+prefixes:
+  team: '$teamColor$[$teamName$] '
+  game: '$teamColor$[G] '
+

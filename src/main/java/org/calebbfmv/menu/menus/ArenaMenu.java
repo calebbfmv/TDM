@@ -14,6 +14,6 @@ public class ArenaMenu extends Menu {
 
 	@Override
 	public void onClose() {
-
+ 
 	}
 }
